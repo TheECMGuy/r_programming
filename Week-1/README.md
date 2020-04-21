@@ -65,3 +65,87 @@
 - Say you have Week-1 directory and inside it there is **hello_world.R** file, in that case now go to terminal type `Rscript hello_world.R` and you would get the output as shown here:
 
 ![](https://i.imgur.com/2jMGtIr.png)
+
+## Video 4: Basic Data types in R
+
+- **Vectors**: Primitive data type. Basic data type used in R. Vectors has many subclasses. More on this later. Integers are well integers and decimals are floating points and there are imaginary ones too.
+
+- **Strings**: Collection of characters.
+
+- **Factors**: Vectors and strings are basic data types, other data types will be derived. That is we create derived ones using basic data types.
+
+- **Arrays**: 1D, 2D etc.
+
+- **List**, **Matrix**, **Data Frames**
+
+- Except **Vectors** and **Strings** all other data types are derived or complex data types. Vectors and strings are basic or primitive data types. Refer `Vector.R`
+
+## Video 5: Strings in R
+
+- Strings used for formatting the output, they do not offer much of a mathematical value. Can use single ' ' or double quotes " ". Anything within quotes is string.
+
+- Some of the valid kinds of strings are as follows: ![](https://i.imgur.com/rB619Ad.png)
+
+- Some of the invalid kinds of strings are as follows: ![](https://i.imgur.com/6PciE0F.png)
+
+- Next we look into string manipulation:
+
+  - Concatenating Strings: **paste()** Say we have separately created lots of strings and we want to concatenate the strings and combine them, this combining of strings is concatenation.
+
+  - Syntax of **paste()** function in R: `paste(...,sep = " ", collapse = NULL)` . In the function ... is for strings, we can give as many strings as we please. sep is for separator value.
+  - We combine strings as per separator. By default it is blank space. `collapse=NULL` basically if you want string a, b, c concatenated with space among them in that case NULL is given to collapse.
+
+  - Extracting string: **substring()** Say we have a large string "Umbrella" from this we want to extract only "ella" and we want to create from this another var.
+
+  - Syntax of substring() is: `substring(string,start,stop)`
+
+  - Some other functions related to strings: **nchar** : Counts the number of characters in a given string. Syntax: `nchar(string_name)`
+  - **toupper()** and **tolower()**: Converts the given string to upper case or lower case respectively.
+
+## Video 6: Guided Practice Video: Strings --> Refer `Vector.R`
+
+## Video 7: Vector
+
+- Vector is a basic data type. Vectors can be created using single or multiple elements.
+
+  - **Single Element Vectors:** Some of the examples are as follows:
+  - **Character Vector**: "Hello", **Numeric**: 10.5, **Integer**:543L,
+  - Numeric can have decimal values, Integers are specified using "L", Booleans can be true or false. There is complex vector too.
+
+- Creating vector with multiple elements:
+
+  - **String vector with 3 elements:** "Apple" "Mango" "Pineapple"
+  - **Numeric vector with 3 elements:** "846.6" "54.5" "11.5"
+  - **Integer vector with 3 elements:** "543L" "28L" "65L"
+  - **Boolean vector with 3 elements:** "TRUE" "TRUE" "FALSE"
+
+- **Creation of vectors:**
+  - Syntax: `c(element1,element2,element3)`
+
+## Video 8: List and Matrices in R
+
+### Lists:
+
+- Say we want to make a datatype with hetrogeneous data types.
+
+- Datatype which allows us to do so is called list. A function named **list()** is used to create this.
+
+- **Syntax:** `Z <- list(27.5,"Hello",c(1,2,3))`
+
+- **class(variable)** Can be used to print the datatype of the variable passed.
+
+### Matrices:
+
+- Two dimensional data type. Rows and columns (x,y) format used for accessing x row and y column's element.
+
+- Creating using the function **matrix()**
+
+- Syntax for creation matrix having numeric vector: `Z <- matrix(c(1,2,3,4,5,6),nrow = 2, ncol=3, byrow= TRUE)`
+
+- Above will create a matrix of 2 rows and 3 columns and enters the element horizontally that is by row from left to right.
+
+- Output if `byrow= TRUE`
+  ![](https://i.imgur.com/QTn5BKV.png)
+
+- Output if `byrow= FALSE`
+  ![](https://i.imgur.com/nvxgRbO.png)
