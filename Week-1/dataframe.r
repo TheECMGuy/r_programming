@@ -10,7 +10,7 @@ print(D$studid) # Prints student id column only
 print(D[c(2,3),c(1)])
 
 D$dep = c("BCE","BEC","BEE","BCL","BLC")
-
+# TODO: Finish the VSCode Playground section.
 print("Dataframe D after insertion of department column is: ")
 print(D)
 print("---------------------------")
