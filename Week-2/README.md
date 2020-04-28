@@ -80,3 +80,55 @@
 - See `operators.r` for guided practice code.
 
 ---
+
+## Video 8-11: Decision Making Constructs and Guided practice
+
+- Condition should be a boolean statement.
+
+- **IF Statement**
+
+![](https://i.imgur.com/IcmN0Hz.png)
+
+- **IF-ELSE STATEMENT**
+
+![](https://i.imgur.com/ow49rLo.png)
+
+- **ELSE-IF LADDER**
+- Used for testing multiple conditions.
+
+![](https://i.imgur.com/8cw3ihF.png)
+
+- **SWITCH CASE**
+
+![](https://i.imgur.com/xAQbjbG.png)
+
+![](https://i.imgur.com/jO0UTrm.png)
+
+---
+
+# Video 12-13: LOOPING
+
+- We have looping statements in R as follows:
+
+- **WHILE Loop:**
+  ![](https://i.imgur.com/fN6XgjQ.png)
+
+- **REPEAT LOOP:**
+  ![](https://i.imgur.com/B0TsduH.png)
+
+- **FOR LOOP:** We know number of iterations we have to repeat the loop
+  ![](https://i.imgur.com/sCnm4mC.png)
+
+- **Break Statement:**
+  ![](https://i.imgur.com/sepz101.png)
+
+- **Continue Statement:**
+  Skip the current iteration.
+
+# Video 14: Getting input from user
+
+```R
+num3 = readline(prompt="Enter a numeric value: ") # readline, prompt are keywords
+print(num3)
+num4 = as.integer(readline(prompt="Enter a numeric value: "))
+```
