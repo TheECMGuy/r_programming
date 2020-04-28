@@ -2,7 +2,7 @@
 
 ---
 
-## Video 1 : Variables in R
+## Video 1&2 : Variables in R
 
 - If you need some memory space to store stuff, you store it in variables. Variables follow a naming convention.
 - Variables can contain letters, numbers, a dot (.) and an underscore (\_) as well.
@@ -45,4 +45,38 @@
 
 ---
 
-## Video 2: Operators in R
+## Video 3 - 7: Operators in R and Guided Practice
+
+- In R we have the following operators:
+
+  - Arithmetic Operators
+  - Relational Operators
+  - Logical Operators
+  - Assignment Operators
+  - Miscellaneous Operators
+
+### Arithmetic Operators
+
+![](https://i.imgur.com/rI1fWRn.png)
+
+![](https://i.imgur.com/Xr6onRp.png)
+
+### Relational Operators
+
+![](https://i.imgur.com/OzZasvD.png)
+
+### Logical Operators
+
+![](https://i.imgur.com/2Cni0uP.png)
+
+### Misc. Operators
+
+![](https://i.imgur.com/SFdGRsc.png)
+
+### Multiplication of a matrix with its transpose
+
+![](https://i.imgur.com/qdASTOi.png)
+
+- See `operators.r` for guided practice code.
+
+---
